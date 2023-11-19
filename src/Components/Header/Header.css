@@ -1,0 +1,24 @@
+nav{
+    background: rgba(243, 240, 240, 0.2);
+}
+nav a{
+    text-decoration: none;
+    padding: .8rem;
+    font-size: 1.3rem;
+   font-weight: 650;
+   color: #494949;
+
+}
+.dropdown{
+    padding: .3rem;
+    font-size: 1.3rem;
+   font-weight: 650;
+}
+.dropdown a{
+    display: flex;
+    flex-flow: row ;
+}
+.brand{
+    font-size: 2.3rem;
+    color: rgb(53, 54, 54);
+}
