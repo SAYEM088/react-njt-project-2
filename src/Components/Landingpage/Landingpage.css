@@ -5,6 +5,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 80vh;
+   
 }
 
 .imgcon{
@@ -12,4 +13,55 @@ body{
 }
 h1 span{
     color: #45c2e8;
+}
+section{
+    height: 60vh;
+    margin: 3rem;
+    background-color: #323946;
+    border-radius: 5px;
+}
+.carotextbox{
+    height: 60vh;
+    color: antiquewhite;
+}
+.caroimg{
+ display: block;
+ width: 100%;
+ height: 60vh;
+}
+
+.portfolio-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow:  0 0 1rem rgb(85, 241, 241);
+    overflow: hidden;
+    display: flex;
+    color: #f8f8f8;
+    font-size: 1.1rem;
+}
+.portfolio-box img{
+    width: 100%;
+    transition: .5s ease;
+}
+.portfolio-box:hover img{
+    transform: scale(1.1);
+}
+.portfolio-box .portfolio-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0,.1),#58ccf0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 0 2rem 0;
+    transform: translateY(100%);
+    transition: .7s ease;
+}
+.portfolio-box:hover .portfolio-layer{
+    transform: translateY(0);
 }

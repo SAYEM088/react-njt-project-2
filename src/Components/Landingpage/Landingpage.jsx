@@ -1,6 +1,7 @@
 import React from 'react';
 import './Landingpage.css';
 import { Image } from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel';
 
 
 const Landingpage = () => {
@@ -17,21 +18,59 @@ const Landingpage = () => {
                     <Image src='advimg.png' style={{ width: '80%', height: '80%' }} fluid roundedCircle></Image>
                 </div>
             </div>
-            <div className="">
-                <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                           
+            <section className='caroimgcontainer'>
+                <Carousel fade>
+                    <Carousel.Item>
+                        <div className="d-flex justify-content-evently">
+                            <div className=" carotextbox p-lg-5">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt quo eos temporibus, doloribus consequatur nostrum maxime quisquam perspiciatis voluptas quis beatae incidunt adipisci pariatur expedita, dolorum fugiat modi magni?</p>
+                            </div>
+                            <div className="portfolio-box imgcon">
+                                <Image className='caroimg' fluid src='bannerpi.png' rounded></Image>
+                                <div className="portfolio-layer">
+                                    <h4>Web Design</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt quo eos temporibus, doloribus consequatur nostrum maxime quisquam perspiciatis voluptas quis beatae incidunt adipisci pariatur expedita, dolorum fugiat modi magni?</p>
+                                </div>
+                            </div>
                         </div>
-                        <div className="carousel-item d-block w-100">
-                        <Image src='advimg.png'></Image>
+
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className="d-flex justify-content-evently">
+                            <div className=" ms-5">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt quo eos temporibus, doloribus consequatur nostrum maxime quisquam perspiciatis voluptas quis beatae incidunt adipisci pariatur expedita, dolorum fugiat modi magni?</p>
+                            </div>
+                            <div className="portfolio-box imgcon">
+                                <Image className='caroimg' fluid src='image1.png' rounded></Image>
+                                <div className="portfolio-layer">
+                                    <h4>Web Design</h4>
+                                    <p>This website is developed for. I was the part of development team.</p>
+                                    <a href="#"><i className='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
                         </div>
-                        <div className="carousel-item">
-                        <Image src='advimg.png'></Image>
+
+                    </Carousel.Item>
+                    
+                    <Carousel.Item>
+                        <div className="d-flex justify-content-evently">
+                            <div className=" ms-5">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt quo eos temporibus, doloribus consequatur nostrum maxime quisquam perspiciatis voluptas quis beatae incidunt adipisci pariatur expedita, dolorum fugiat modi magni?</p>
+                            </div>
+                            <div className="portfolio-box imgcon">
+                                <Image className='caroimg' fluid src='image3.png' rounded></Image>
+                                <div className="portfolio-layer">
+                                    <h4>Web Design</h4>
+                                    <p>This website is developed for. I was the part of development team.</p>
+                                    <a href="#"><i className='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+
+                    </Carousel.Item>
+                    
+                </Carousel>
+            </section>
         </div>
     );
 };
