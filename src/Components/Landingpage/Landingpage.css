@@ -1,3 +1,6 @@
+html{
+    font-size: 105%;
+}
 body{
     background: #1f242d;
 }
@@ -14,54 +17,46 @@ body{
 h1 span{
     color: #45c2e8;
 }
-section{
-    height: 60vh;
-    margin: 3rem;
-    background-color: #323946;
-    border-radius: 5px;
+h4 span{
+    color: #45c2e8;
 }
-.carotextbox{
-    height: 60vh;
-    color: antiquewhite;
+.marqueesec{
+    border: 2px solid #2e3441;
+    box-shadow:  0 0 1rem #2d2e2e;
 }
-.caroimg{
- display: block;
- width: 100%;
- height: 60vh;
-}
-
-.portfolio-box{
-    position: relative;
-    border-radius: 2rem;
-    box-shadow:  0 0 1rem rgb(85, 241, 241);
-    overflow: hidden;
-    display: flex;
-    color: #f8f8f8;
-    font-size: 1.1rem;
-}
-.portfolio-box img{
-    width: 100%;
-    transition: .5s ease;
-}
-.portfolio-box:hover img{
-    transform: scale(1.1);
-}
-.portfolio-box .portfolio-layer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0, 0, 0,.1),#58ccf0);
+.profilecard{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 0 0 2rem 0;
-    transform: translateY(100%);
-    transition: .7s ease;
+   padding: 4rem;
+   border-radius: 5px;
 }
-.portfolio-box:hover .portfolio-layer{
-    transform: translateY(0);
+.garmentshirt{
+    width: 100%;
+    border: 2px solid #353b49;
+    border-radius: 7px;
+}
+.garmentshirt:hover{
+    box-shadow:  0 0 1rem #45c2e8;
+    border: 1px solid #45c2e8;
+    transition-delay: 1s;
+    transition-duration: 2s ;
+    transition: all allow-discrete;
+}
+
+
+@media (max-width : 768px ) {
+    html{
+        font-size: 95%;
+    }
+    .projectimg{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 2rem;
+    }
+    .profilecard{
+       display: block;    
+    }
+    .garmentshirt{
+        margin-bottom: 2rem;
+    }
 }

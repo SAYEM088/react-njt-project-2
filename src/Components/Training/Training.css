@@ -1,0 +1,82 @@
+/* career */
+.career{
+    background: #000;
+}
+.accbody{
+    background: #000;
+    border: #31363a;
+    background-color: #000;
+}
+
+/* carosoul */
+.projectimg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+    margin: 5rem;
+}
+.projectimg1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4rem;
+    margin: 5rem;
+}
+.textboxx{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow:  0 0 1rem #31363a;
+    overflow: hidden;
+    display: flex;
+    color: #f8f8f8;
+    font-size: 1.1rem;
+}
+.portfolio-box img{
+    width: 100%;
+    transition: .5s ease;
+}
+.portfolio-box:hover img{
+    transform: scale(1.1);
+}
+.portfolio-box .portfolio-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0,.1),#58ccf0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 0 2rem 0;
+    transform: translateY(100%);
+    transition: .7s ease;
+}
+.portfolio-box:hover .portfolio-layer{
+    transform: translateY(0);
+}
+
+@media (max-width : 768px ) {
+    .projectimg{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 2rem;
+    }
+    .portfolio-box:hover{
+        transform: scale(1.02) ;
+    }
+}
+
+/* dd */
+.carosoul{
+    padding: 5rem;
+}

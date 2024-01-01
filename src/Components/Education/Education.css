@@ -1,0 +1,44 @@
+.eduname{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  
+}
+
+.edubox{
+    border: 3px solid rgb(53, 54, 54);
+    margin: 1rem;
+    border-radius: 6px;
+    padding: 0 0 1rem 1rem;
+    height: 40vh;
+    padding-bottom: 10vh;
+    box-shadow: 0 0 1rem #333333;
+}
+.edubox:hover{
+    border: 3px solid #45c2e8;
+    box-shadow: 0 0 1rem #45c2e8;
+}
+.yeardiv{
+    border-top: 2px solid rgb(107, 110, 110);
+    margin-right: 1rem;
+}
+.yeardiv h4{
+    padding-top: 10px;
+}
+
+@media (max-width:768px) {
+    .eduname{
+       display: block;
+      
+    }
+    .imgdiv{
+        width: 30%;
+    }
+    .edubox{
+        height: 45vh;
+    }
+}
+@media (max-width:500px) {
+    .edubox{
+        height: 50vh;
+    }
+}

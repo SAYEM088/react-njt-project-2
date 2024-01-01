@@ -1,7 +1,7 @@
 import React from 'react';
 import './Landingpage.css';
 import { Image } from 'react-bootstrap';
-import Carousel from 'react-bootstrap/Carousel';
+
 
 
 const Landingpage = () => {
@@ -18,59 +18,41 @@ const Landingpage = () => {
                     <Image src='advimg.png' style={{ width: '80%', height: '80%' }} fluid roundedCircle></Image>
                 </div>
             </div>
-            <section className='caroimgcontainer'>
-                <Carousel fade>
-                    <Carousel.Item>
-                        <div className="d-flex justify-content-evently">
-                            <div className=" carotextbox p-lg-5">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt quo eos temporibus, doloribus consequatur nostrum maxime quisquam perspiciatis voluptas quis beatae incidunt adipisci pariatur expedita, dolorum fugiat modi magni?</p>
-                            </div>
-                            <div className="portfolio-box imgcon">
-                                <Image className='caroimg' fluid src='bannerpi.png' rounded></Image>
-                                <div className="portfolio-layer">
-                                    <h4>Web Design</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt quo eos temporibus, doloribus consequatur nostrum maxime quisquam perspiciatis voluptas quis beatae incidunt adipisci pariatur expedita, dolorum fugiat modi magni?</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <div className="d-flex justify-content-evently">
-                            <div className=" ms-5">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt quo eos temporibus, doloribus consequatur nostrum maxime quisquam perspiciatis voluptas quis beatae incidunt adipisci pariatur expedita, dolorum fugiat modi magni?</p>
-                            </div>
-                            <div className="portfolio-box imgcon">
-                                <Image className='caroimg' fluid src='image1.png' rounded></Image>
-                                <div className="portfolio-layer">
-                                    <h4>Web Design</h4>
-                                    <p>This website is developed for. I was the part of development team.</p>
-                                    <a href="#"><i className='bx bx-link-external'></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </Carousel.Item>
-                    
-                    <Carousel.Item>
-                        <div className="d-flex justify-content-evently">
-                            <div className=" ms-5">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt quo eos temporibus, doloribus consequatur nostrum maxime quisquam perspiciatis voluptas quis beatae incidunt adipisci pariatur expedita, dolorum fugiat modi magni?</p>
-                            </div>
-                            <div className="portfolio-box imgcon">
-                                <Image className='caroimg' fluid src='image3.png' rounded></Image>
-                                <div className="portfolio-layer">
-                                    <h4>Web Design</h4>
-                                    <p>This website is developed for. I was the part of development team.</p>
-                                    <a href="#"><i className='bx bx-link-external'></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </Carousel.Item>
-                    
-                </Carousel>
+            <section className='marqueesec p-5'>
+                <marquee direction="">   <h4>
+                <span className='mx-5'>
+                    <Image style={{width:'2rem',height:"2rem"}} src='green-leaf.png'></Image> hrguiahgoiaikgnhoiajhgf</span>
+                <span className='mx-5'>
+                    <Image style={{width:'2rem',height:"2rem"}} src='green-leaf.png'></Image> hrguiahgoiaikgnhoiajhgf</span>
+                <span className='mx-5'>
+                    <Image style={{width:'2rem',height:"2rem"}} src='green-leaf.png'></Image> hrguiahgoiaikgnhoiajhgf</span>
+                <span className='mx-5'>
+                    <Image style={{width:'2rem',height:"2rem"}} src='green-leaf.png'></Image> hrguiahgoiaikgnhoiajhgf</span>
+                    </h4> 
+                </marquee>
             </section>
+            <section className='mt-1 profilecard mx-1 mx-lg-5 gap-5 '>
+
+                <div className="garmentshirt">
+                    <Image className='p-2' src='factory.png' fluid rounded></Image>
+                    <h3 className='mx-3 my-2'>shsikja</h3>
+                    <p className='p-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet blanditiis exercitationem porro molestias ratione? Possimus molestiae nulla optio quasi consequatur quibusdam totam ipsa est, sapiente magnam maiores distinctio officiis amet!</p>
+                </div>
+
+                <div className="garmentshirt">
+                    <Image className='p-2' src='bdsupremecourt.jpg' fluid rounded></Image>
+                    <h3 className='mx-3 my-2'>shsikja</h3>
+                    <p className='p-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet blanditiis exercitationem porro molestias ratione? Possimus molestiae nulla optio quasi consequatur quibusdam totam ipsa est, sapiente magnam maiores distinctio officiis amet!</p>
+                </div>
+
+                <div className="garmentshirt">
+                    <Image  className='p-2' src='buying.png' fluid rounded></Image>
+                    <h3 className='mx-3 my-2'>shsikja</h3>
+                    <p className='p-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet blanditiis exercitationem porro molestias ratione? Possimus molestiae nulla optio quasi consequatur quibusdam totam ipsa est, sapiente magnam maiores distinctio officiis amet!</p>
+                </div>
+
+            </section>
+ 
         </div>
     );
 };

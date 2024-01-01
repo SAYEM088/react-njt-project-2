@@ -1,5 +1,6 @@
 nav{
-    background:#323946;
+    background:linear-gradient( #202427,rgba(0,0,0,.25));
+    border-bottom: .3px dotted #202427;
 }
 nav a{
     text-decoration: none;
@@ -9,16 +10,14 @@ nav a{
    color: #e9e1e1;
 
 }
-.dropdown{
-    padding: .3rem;
-    font-size: 1.3rem;
-   font-weight: 650;
-}
-.dropdown a{
-    display: flex;
-    flex-flow: row ;
-}
+
 .brand{
     font-size: 2.3rem;
     color: #45c2e8;
+}
+@media (max-width:900px) {
+    nav{
+        background:linear-gradient(-145deg,rgba(86, 93, 95, 0.35),rgba(74, 89, 95, 0.29),rgba(54, 54, 54, 0.27));
+        border-bottom: .3px dotted #202427;
+    }
 }
