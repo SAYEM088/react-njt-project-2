@@ -30,8 +30,7 @@ const Training = () => {
                             <div className="portfolio-box imgcon">
                                 <Image fluid src='image3.png' rounded></Image>
                                 <div className="portfolio-layer">
-                                    <h4>Web Design</h4>
-                                    <p>This website is developed for. I was the part of development team.</p>
+                                    <h4>CSR Audit in China</h4>
                                 </div>
                             </div>
                         </div>
@@ -53,8 +52,8 @@ const Training = () => {
                             <div className="portfolio-box imgcon">
                                 <Image fluid src='image1.png' rounded></Image>
                                 <div className="portfolio-layer">
-                                    <h4>Web Design</h4>
-                                    <p>This website is developed for. I was the part of development team.</p>
+                                    <h4> Workers training program on Sexual harassment-free working Environment</h4>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -78,8 +77,7 @@ const Training = () => {
                             <div className="portfolio-box imgcon">
                                 <Image fluid src='bannerpi.png' rounded></Image>
                                 <div className="portfolio-layer">
-                                    <h4>Web Design</h4>
-                                    <p>This website is developed for. I was the part of development team.</p>
+                                    <h4> Picture with my Colleagues</h4>
                                 </div>
                             </div>
                         </div>
