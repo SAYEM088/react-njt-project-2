@@ -24,39 +24,10 @@ h4 span{
     border: 2px solid #2e3441;
     box-shadow:  0 0 1rem #2d2e2e;
 }
-.profilecard{
-    display: flex;
-    justify-content: center;
-   padding: 4rem;
-   border-radius: 5px;
-}
-.garmentshirt{
-    width: 100%;
-    border: 2px solid #353b49;
-    border-radius: 7px;
-}
-.garmentshirt:hover{
-    box-shadow:  0 0 1rem #45c2e8;
-    border: 1px solid #45c2e8;
-    transition-delay: 1s;
-    transition-duration: 2s ;
-    transition: all allow-discrete;
-}
 
 
 @media (max-width : 768px ) {
     html{
         font-size: 95%;
-    }
-    .projectimg{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        margin: 2rem;
-    }
-    .profilecard{
-       display: block;    
-    }
-    .garmentshirt{
-        margin-bottom: 2rem;
     }
 }

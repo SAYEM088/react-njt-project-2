@@ -1,0 +1,32 @@
+.sectionbg{
+    background: linear-gradient(-136deg,#3e4452,#13151b);
+}
+.profilecard{
+    display: flex;
+    justify-content: center;
+   padding: 4rem;
+   border-radius: 5px;
+}
+.garmentshirt{
+    width: 100%;
+    border: 3px solid #494c52;
+    border-radius: 7px;
+   
+}
+.garmentshirt:hover{
+    background: linear-gradient(-146deg,#2c323a,#0f1216);
+}
+
+@media (max-width : 768px ) {
+    .projectimg{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 2rem;
+    }
+    .profilecard{
+       display: block;    
+    }
+    .garmentshirt{
+        margin-bottom: 2rem;
+    }
+}

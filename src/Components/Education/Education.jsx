@@ -4,13 +4,13 @@ import './Education.css'
 const Education = () => {
     return (
         <div>
-            <div className="">
+            <div className="mx-1 mx-lg-5 px-1 px-lg-5">
                 <div className="eduname">
                     <div className="edubox">
                         <div className="row">
-                            <div className="col "><span className='imgdiv1'></span> <Image style={{ width: '60%' }} src='g-cap.png' fluid></Image></div>
+                            <div className="col imgdiv1"><Image style={{ width: '60%' }} src='g-cap.png' fluid></Image></div>
                             <div className="col-8 ">
-                                <h3 className='pt-3'>Master of Laws <br /> (LLM)</h3>
+                                <h4 className='pt-3'>Master of Laws <br /> (LLM)</h4>
                             </div>
                         </div>
                         
@@ -21,7 +21,7 @@ const Education = () => {
                     </div>
                     <div className="edubox">
                         <div className="row">
-                            <div className="col "> <Image style={{ width: '60%' }} src='g-cap.png' fluid></Image></div>
+                            <div className="col imgdiv1"> <Image style={{ width: '60%' }} src='g-cap.png' fluid></Image></div>
                             <div className="col-8 ">
                                 <h3 className='pt-3'>Bachelor of law  <br /> (LLB)</h3>
                             </div>
@@ -34,7 +34,7 @@ const Education = () => {
                     </div>
                     <div className="edubox">
                         <div className="row">
-                            <div className="col "> <Image style={{ width: '60%' }} src='g-cap.png' fluid></Image></div>
+                            <div className="col imgdiv1"> <Image style={{ width: '60%' }} src='g-cap.png' fluid></Image></div>
                             <div className="col-8 ">
                                 <h3 className='pt-3'>Masters of arts  <br /> (MA)</h3>
                             </div>
@@ -47,7 +47,7 @@ const Education = () => {
                     </div>
                     <div className="edubox">
                         <div className="row">
-                            <div className="col "> <Image style={{ width: '60%' }} src='g-cap.png' fluid></Image></div>
+                            <div className="col imgdiv1"> <Image style={{ width: '60%' }} src='g-cap.png' fluid></Image></div>
                             <div className="col-8 ">
                                 <h3 className='pt-3'>Graduation </h3>
                             </div>
@@ -60,9 +60,9 @@ const Education = () => {
                     </div>
                     <div className="edubox">
                         <div className="row">
-                            <div className="col "> <Image style={{ width: '60%' }} src='g-cap.png' fluid></Image></div>
+                            <div className="col imgdiv1"> <Image style={{ width: '60%' }} src='g-cap.png' fluid></Image></div>
                             <div className="col-8 ">
-                                <h3 className='pt-3'>Higher Secondary Certificate  <br /> (HSC)</h3>
+                                <h4 className='pt-3'>Higher Secondary Certificate  <br /> (HSC)</h4>
                             </div>
                         </div>
                         
@@ -73,9 +73,9 @@ const Education = () => {
                     </div>
                     <div className="edubox">
                         <div className="row">
-                            <div className="col "> <Image style={{ width: '60%' }} src='g-cap.png' fluid></Image></div>
+                            <div className="col imgdiv1"> <Image style={{ width: '60%' }} src='g-cap.png' fluid></Image></div>
                             <div className="col-8 ">
-                                <h3 className='pt-3'>Secondary School Certificate  <br /> (SSC) </h3>
+                                <h4 className='pt-3'>Secondary School Certificate  <br /> (SSC) </h4>
                             </div>
                         </div>
                         

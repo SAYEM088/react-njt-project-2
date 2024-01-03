@@ -1,6 +1,8 @@
 .eduname{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    margin-left: 4rem ;
+    margin-right: 4rem;
   
 }
 
@@ -24,11 +26,33 @@
 .yeardiv h4{
     padding-top: 10px;
 }
-
+.imgdiv1{
+    width: 100px;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+.edubox:hover .imgdiv1{
+    box-shadow: inset 150px 0 0 0 #5bd9ff;
+}
+@media (max-width:1380px)  {
+    .edubox{
+        height: 68vh;
+    }
+}
+@media (max-width:900px) {
+    .eduname{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0;
+     }
+     .edubox{
+        height: 42vh;
+    }
+}
 @media (max-width:768px) {
     .eduname{
        display: block;
-      
+      margin: 0;
     }
     .imgdiv{
         width: 30%;
