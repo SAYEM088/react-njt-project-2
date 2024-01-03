@@ -1,5 +1,8 @@
+body{
+    color: #fff;
+}
 .aboutpara {
-    background: url(eduback.jpg);
+    background: url(./eduback.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
