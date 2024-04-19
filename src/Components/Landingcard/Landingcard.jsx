@@ -20,9 +20,9 @@ const Landingcard = () => {
                 </div>
 
                 <div className="garmentshirt">
-                    <Image  className='p-2 garmentimg' src='buying.png' fluid rounded></Image>
-                    <h3 className='mx-3 my-2'>Auditor & Trainer</h3>
-                    <p className='p-3'>social compliance in the Readymade Garments sector</p>
+                    <Image  className='p-2 garmentimg' src='trainer.png' fluid rounded></Image>
+                    <h3 className='mx-3 my-2'>Trainer</h3>
+                    <p className='p-3'>Soft Skills trainer at UCEP Bangladesh</p>
                 </div>
                 </div>
             </section>

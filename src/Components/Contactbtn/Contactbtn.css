@@ -1,0 +1,39 @@
+.contan{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color: #0b2239;
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #0b2239;
+}
+.contact1{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.phone{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact1 a{
+    color: rgb(61, 243, 228);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.contact1 h5, h6{
+    color: rgb(223, 36, 36);
+    font-weight: 750;
+}
+.contact1 h6{
+    color: rgb(61, 243, 228);
+}

@@ -16,7 +16,7 @@ const Landingpage = () => {
                     <p>I am Nisrat Jahan Talukder. I am a lawyer of the Honorable supreme court in Bangladesh. I practice in Civil & criminal both sides. I have quite a knowledge of Bangladesh Labor Law 2006, Bangladesh Shorm Bidhimala,2015. Environmental laws 1995 relevant to the RMG sector in Bangladesh.</p>
                 </div>
                 <div className="mt-5 p-lg-5 ms-3 ms-lg-5 imgcon ">
-                    <Image src='advimg.png' style={{ width: '80%', height: '80%' }} fluid roundedCircle></Image>
+                    <Image src='' style={{ width: '80%', height: '80%' }} fluid roundedCircle></Image>
                 </div>
             </div>
             <section className='marqueesec p-5'>
@@ -26,7 +26,7 @@ const Landingpage = () => {
                 <span className='mx-5'>
                     <Image style={{width:'2rem',height:"2rem"}} src='green-leaf.png'></Image> Manager</span>
                 <span className='mx-5'>
-                    <Image style={{width:'2rem',height:"2rem"}} src='green-leaf.png'></Image> Auditor & Trainer</span>
+                    <Image style={{width:'2rem',height:"2rem"}} src='green-leaf.png'></Image>Trainer</span>
                 <span className='mx-5'>
                     <Image style={{width:'2rem',height:"2rem"}} src='green-leaf.png'></Image> </span>
                 <span className='mx-5'>
@@ -36,7 +36,7 @@ const Landingpage = () => {
                 <span className='mx-5'>
                     <Image style={{width:'2rem',height:"2rem"}} src='green-leaf.png'></Image> Manager</span>
                 <span className='mx-5'>
-                    <Image style={{width:'2rem',height:"2rem"}} src='green-leaf.png'></Image> Auditor & Trainer</span>
+                    <Image style={{width:'2rem',height:"2rem"}} src='green-leaf.png'></Image>Trainer</span>
                     </h4> 
                 </marquee>
             </section>

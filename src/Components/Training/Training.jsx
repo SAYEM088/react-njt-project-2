@@ -88,24 +88,26 @@ const Training = () => {
             <section className='d-block d-sm-none'>
                 <div className="projectimg">
                     <div className="portfolio-box imgcon">
-                        <Image fluid src='image3.png' rounded></Image>
+                        <Image fluid src='' rounded></Image>
                         <div className="portfolio-layer">
-                            <h4>Web Design</h4>
-                            <p>This website is developed for. I was the part of development team.</p>
+                            <h4>CSR Audit in China 2017</h4>
+                            <p>During CSR training we visited one of our suppliers in Xiamen city, China.</p>
                         </div>
                     </div>
                     <div className="portfolio-box imgcon">
-                        <Image fluid src='bannerpi.png' rounded></Image>
+                        <Image fluid src='' rounded></Image>
                         <div className="portfolio-layer">
-                            <h4>Web Design</h4>
-                            <p>This website is developed for. I was the part of development team.</p>
+                            <h4>Picture with my Colleagues</h4>
+                            <p>On 1st July 2017, I went to Xiamen
+                                    city in china. The team from India, Bangladesh, Vietnam, China, and Garman employee attended the
+                                    Training program.</p>
                         </div>
                     </div>
                     <div className="portfolio-box imgcon">
-                        <Image fluid src='image1.png' rounded></Image>
+                        <Image fluid src='' rounded></Image>
                         <div className="portfolio-layer">
-                            <h4>Web Design</h4>
-                            <p>This website is developed for. I was the part of development team.</p>
+                            <h4>Workers training program on Sexual harassment-free working Environment</h4>
+                            <p>It was a day-long program with workers in Blue Planet Knitwear Ltd.</p>
                         </div>
                     </div>
                 </div>

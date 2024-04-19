@@ -11,6 +11,7 @@ import Landingpage from './Components/Landingpage/Landingpage';
 import Contact from './Components/Contact/Contact';
 import About from './Components/About/About';
 import Training from './Components/Training/Training';
+import Contactbtn from './Components/Contactbtn/Contactbtn';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/contact',
-        element:<Contact/>
+        element:<Contactbtn></Contactbtn>
       },
       {
         path:'about',
